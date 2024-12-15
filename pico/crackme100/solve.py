@@ -9,7 +9,7 @@ key3 = 0x61
 
 q = 0
 
-# new[j] = key3 + ((e_1 >> 4 & key2) + old[j] - key3 + (key2 & e_1)) % 0x1a
+# new[j] == key3 + ((e_1 >> 4 & key2) + old[j] - key3 + (key2 & e_1)) % 0x1a
 # new[j] - key3 == ((e_1 >> 4 & key2) + old[j] - key3 + (key2 & e_1)) % 0x1a
 # (e_1 >> 4 & key2) + old[j] + (key2 & e_1) == 0x1a * q + new[j]
 # old[j] == 0x1a * q + new[j] - (key2 & e_1) - (e_1 >> 4 & key2)

@@ -5,3 +5,8 @@
 /pico/flag_leak/vuln
 /pico/heap_2/vuln
 /pico/crackme100/crackme100
+/pico/MATRIX/matrix
+/pico/breadth/breadth.v2
+/pico/breadth/breadth.v1
+
+/venv
